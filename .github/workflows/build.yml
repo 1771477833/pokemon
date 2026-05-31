@@ -46,9 +46,15 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-buildozer-
 
+    - name: Accept Android SDK licenses
+      run: |
+        mkdir -p ~/.android
+        echo "24333f8a63b625fee7710bc8f809168337464703" > ~/.android/repositories.cfg
+        echo "8933bad161af4178b1185d1a37fbf41ea5269c55" > ~/.android/accepted-sdk-licenses
+
     - name: Build APK
       run: |
-        buildozer android debug
+        yes | buildozer android debug
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
