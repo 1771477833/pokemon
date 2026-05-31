@@ -37,3 +37,4 @@ build_dir = ./.buildozer
 bin_dir = ./bin
 
 android.add_assets = assets/
+android.accept_sdk_license = True
