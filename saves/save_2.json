@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "slot": 2,
+  "data": {
+    "player_name": "小智",
+    "player_money": 2400,
+    "player_bag": {
+      "potion": 2,
+      "pokeball": 3
+    },
+    "party_data": [
+      {
+        "species_id": "pikachu",
+        "level": 5,
+        "current_hp": 19,
+        "moves": [
+          "quick_attack",
+          "thunder_shock",
+          "growl"
+        ],
+        "nickname": null,
+        "experience": 0
+      },
+      {
+        "species_id": "charmander",
+        "level": 5,
+        "current_hp": 19,
+        "moves": [
+          "scratch",
+          "ember",
+          "growl"
+        ],
+        "nickname": null,
+        "experience": 0
+      }
+    ],
+    "player_x": 16,
+    "player_y": 4,
+    "defeated_trainers": [],
+    "game_state": "SAVE_MENU"
+  }
+}
