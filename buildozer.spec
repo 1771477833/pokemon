@@ -18,10 +18,7 @@ fullscreen = 0
 android.permissions = INTERNET
 android.allow_backup = True
 
-android.ndk = 25b
 android.ndk_api = 21
-
-android.sdk = 24
 
 android.archs = arm64-v8a, armeabi-v7a
 
